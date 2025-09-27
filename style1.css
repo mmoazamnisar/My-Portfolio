@@ -1,0 +1,87 @@
+
+
+body {
+ background: linear-gradient(to right, #101068, #cd3f6c);
+  background-size: cover;
+  margin: 0%;
+  font-family: Aria;
+  
+}
+
+header {
+ background: linear-gradient(to right, rgb(2, 2, 77), #cd3f6c);
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+  
+}
+.search-bar{
+  position:relative;
+  padding: 5px 10px;
+    
+}
+.go{
+    position:absolute;
+     left: 143px;
+     top: 4.7px;
+    
+}
+header a {
+  display: grid;
+   flex:1px;
+  color: rgb(10, 10, 10);
+  text-decoration:none;
+  margin-right: 15px;
+  background: linear-gradient(to right, #2543ec, #f33775);
+  border: 2px solid #faf8f8;
+  
+}
+
+.gct {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  border-style:bold ;
+}
+
+
+.container{
+  display: flex;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+}
+.main{
+  display: flex;
+  width: 50%;
+}
+
+.aside-bar{
+  
+  display: flex;
+  align-items: center;
+  width:50%;
+
+}
+.h1{
+  color: azure;
+}
+.h2{
+  color: azure;
+}
+.ul{
+  color: azure;
+}
+.p
+{
+  color: azure;
+}
+footer {
+  display:flex;
+  justify-content: center;
+ background: linear-gradient(to right, #141453, #c43763);
+  
+  padding: 0%;
+}
